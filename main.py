@@ -29,9 +29,9 @@ def login():
     else:
         return Response('''
             <form action="" method="post">
-                Username: <input type=text name=username> <br>
-                Password: <input type=password name=password> <br>
-                <input type=submit>
+                <p>Username: <input type=text name=username></p>
+                <p>Password: <input type=password name=password></p>
+                <p><input type=submit></p>
             </form>
         ''')
 
